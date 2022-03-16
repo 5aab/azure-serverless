@@ -20,8 +20,8 @@
         <azure.functions.maven.plugin.version>1.14.2</azure.functions.maven.plugin.version>
 
         <!-- customize those two properties. The functionAppName should be unique across Azure -->
-        <functionResourceGroup>azure-functions-resource-group</functionResourceGroup>
-        <functionAppName>azure-functions</functionAppName>
+        <functionResourceGroup>pun-azure-functions-resource-group</functionResourceGroup>
+        <functionAppName>pun-azure-functions</functionAppName>
 
         <functionAppRegion>westeurope</functionAppRegion>
         <stagingDirectory>${project.build.directory}/azure-serverless/${functionAppName}</stagingDirectory>
