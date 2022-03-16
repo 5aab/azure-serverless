@@ -140,7 +140,7 @@
                         <configuration>
                             <overwrite>true</overwrite>
                             <outputDirectory>
-                                ${project.build.directory}/azure-serverless/${functionAppName}
+                                ${project.build.directory}/azure-functions/${functionAppName}
                             </outputDirectory>
                             <resources>
                                 <resource>
