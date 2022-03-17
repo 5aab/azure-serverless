@@ -117,6 +117,10 @@
                             <name>FUNCTIONS_WORKER_RUNTIME</name>
                             <value>java</value>
                         </property>
+                        <property>
+                            <name>AzureWebJobsStorage</name>
+                            <value>DefaultEndpointsProtocol=https;AccountName=punfunctionalstorage;AccountKey=Mz9EHtfyrKznMZRje+HuTub3pO34sw/PNelQBsvgiyQ97iZYjJ9DN84SQmWWe1ibeyIkaGNlt0l3XEFyeniOw==;EndpointSuffix=core.windows.net</value>
+                        </property>
                     </appSettings>
                 </configuration>
                 <executions>
